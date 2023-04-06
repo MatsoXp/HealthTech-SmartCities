@@ -92,8 +92,5 @@ namespace HealthTech_SmartCities.Controllers
 
         }
 
-
-
-
     }
 }
