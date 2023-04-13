@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rP0J37U/v6WMyY/1qBs9s+VoxzRyaC1zeXYt0sP9ZsHWOR2/C+lZZM8gsgqGH86/1VUzuWz2+DePITVqVfnsDA==",
+  "dgSpecHash": "xfwK9ee42ab8D1qTUT0lfK2WwZ/utRLXK4j1PNM/AviCjksOGguNxYAIxMV+ws09HRRUS80WWerF+lF4m1eUEQ==",
   "success": true,
-  "projectFilePath": "C:\\VS_Projetos\\HealthTech-SmartCities\\HealthTech-SmartCities\\HealthTech-SmartCities.csproj",
+  "projectFilePath": "C:\\VS_Projetos\\SmartCities\\HealthTech-SmartCities\\HealthTech-SmartCities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahbu\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.0\\microsoft.entityframeworkcore.7.0.0.nupkg.sha512",
     "C:\\Users\\mahbu\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.0\\microsoft.entityframeworkcore.abstractions.7.0.0.nupkg.sha512",

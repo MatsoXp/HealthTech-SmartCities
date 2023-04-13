@@ -6,7 +6,7 @@ namespace HealthTech_SmartCities.Models
     [Table("USUARIO")]
     public class UsuarioModel
     {
-        private int id;
+        //private int id;
 
         [Key]
         [Column("ID")]
@@ -22,8 +22,6 @@ namespace HealthTech_SmartCities.Models
         [Required(ErrorMessage = "Insira um CPF válido")]
         //alterar o string length do cpf
         [StringLength(12, MinimumLength = 1, ErrorMessage = "CPF deve ter 11 dígitos")]
-        
-        
         public string UsuarioCpf { get; set; }
 
 
@@ -52,7 +50,7 @@ namespace HealthTech_SmartCities.Models
 
         public UsuarioModel(int id)
         {
-            this.id = id;
+            this.UsuarioId = id;
         }
     }
 }

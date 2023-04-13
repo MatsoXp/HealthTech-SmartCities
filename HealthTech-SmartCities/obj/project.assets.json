@@ -1619,11 +1619,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\VS_Projetos\\HealthTech-SmartCities\\HealthTech-SmartCities\\HealthTech-SmartCities.csproj",
+      "projectUniqueName": "C:\\VS_Projetos\\SmartCities\\HealthTech-SmartCities\\HealthTech-SmartCities.csproj",
       "projectName": "HealthTech-SmartCities",
-      "projectPath": "C:\\VS_Projetos\\HealthTech-SmartCities\\HealthTech-SmartCities\\HealthTech-SmartCities.csproj",
+      "projectPath": "C:\\VS_Projetos\\SmartCities\\HealthTech-SmartCities\\HealthTech-SmartCities.csproj",
       "packagesPath": "C:\\Users\\mahbu\\.nuget\\packages\\",
-      "outputPath": "C:\\VS_Projetos\\HealthTech-SmartCities\\HealthTech-SmartCities\\obj\\",
+      "outputPath": "C:\\VS_Projetos\\SmartCities\\HealthTech-SmartCities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mahbu\\AppData\\Roaming\\NuGet\\NuGet.Config",

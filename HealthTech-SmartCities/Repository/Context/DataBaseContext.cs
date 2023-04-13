@@ -18,6 +18,8 @@ namespace HealthTech_SmartCities.Repository.Context
         //propriedade para tebela Usuario
         public DbSet<UsuarioModel> Usuario { get; set; }
 
+        public DbSet<MedicoModel> Medico { get; set; }
+
 
 
 
