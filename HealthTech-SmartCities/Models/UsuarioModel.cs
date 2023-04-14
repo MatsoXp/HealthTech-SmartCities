@@ -9,17 +9,17 @@ namespace HealthTech_SmartCities.Models
         //private int id;
 
         [Key]
-        [Column("ID")]
+        [Column("ID_USUARIO")]
         public int UsuarioId { get; set; }
 
         [Column("NOME")]
-        [Required(ErrorMessage = "Insira um Nome válido")]
+//        [Required(ErrorMessage = "Insira um Nome válido")]
         [StringLength(100, MinimumLength = 2, ErrorMessage = "O Nome deve ter no mínimo 2 e no máximo 100 caracteres")]
         //[Display(Name = "Nome do usuário")]
         public string UsuarioNome { get; set; }
 
         [Column("CPF")]
-        [Required(ErrorMessage = "Insira um CPF válido")]
+//        [Required(ErrorMessage = "Insira um CPF válido")]
         //alterar o string length do cpf
         [StringLength(12, MinimumLength = 1, ErrorMessage = "CPF deve ter 11 dígitos")]
         public string UsuarioCpf { get; set; }

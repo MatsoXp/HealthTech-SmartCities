@@ -7,7 +7,7 @@ namespace HealthTech_SmartCities.Models
     public class MedicoModel
     {
         [Key]
-        [Column("ID")]
+        [Column("ID_MEDICO")]
         public int MedicoId { get; set; }
 
         [Column("NOME")]

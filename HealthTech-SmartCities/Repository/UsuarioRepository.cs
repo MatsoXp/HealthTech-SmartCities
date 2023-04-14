@@ -31,6 +31,12 @@ namespace HealthTech_SmartCities.Repository
             return usuario;
         }
 
+        //busca apenas id pra consulta
+        public async Task<UsuarioModel> GetByIdAsync(int id)
+        {
+            return await dataBaseContext.Usuario.FindAsync(id);
+        }
+
         //cadastra objeto Usuario
         public void Insert(UsuarioModel usuario) 
         {

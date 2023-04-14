@@ -1,7 +1,7 @@
 ﻿using HealthTech_SmartCities.Models;
 using HealthTech_SmartCities.Repository.Context;
 
-namespace HealthTech_SmartCities.Repository.Context
+namespace HealthTech_SmartCities.Repository
 {
     public class MedicoRepository
     {
@@ -19,8 +19,14 @@ namespace HealthTech_SmartCities.Repository.Context
         public IList<MedicoModel> FindAll()
         {
             var lista = new List<MedicoModel>();
-            lista = dataBaseContext.Medico.ToList<MedicoModel>();
+            lista = dataBaseContext.Medico.ToList();
             return lista;
+        }
+
+        //busca apenas id pra consulta
+        public async Task<MedicoModel> GetByIdAsync(int id)
+        {
+            return await dataBaseContext.Medico.FindAsync(id);
         }
 
 
