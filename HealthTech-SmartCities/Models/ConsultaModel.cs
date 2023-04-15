@@ -24,9 +24,12 @@ namespace HealthTech_SmartCities.Models
         [Column("ID_USUARIO")]
         public int UsuarioId { get; set; }
 
-        public MedicoModel Medico { get; set; }
-        public UsuarioModel Usuario { get; set; }
 
+
+
+/*        public MedicoModel Medico { get; set; }
+        public UsuarioModel Usuario { get; set; }
+*/
 
         public ConsultaModel(DateTime dataHora, string descricao, int idMedico, int idPaciente)
         {
