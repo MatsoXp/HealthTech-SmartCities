@@ -22,6 +22,8 @@ namespace HealthTech_SmartCities.Repository.Context
 
         public DbSet<ConsultaModel> Consulta { get; set; }
 
+        public DbSet<ReceitaModel> Receita { get; set; }
+
 
 
 
